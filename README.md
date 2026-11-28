@@ -45,7 +45,7 @@
 3. إذا طلب النظام ذلك، اسمح بـ«التثبيت من مصادر غير معروفة» للتطبيق الذي فتحت منه الملف.
 4. ثبّت التطبيق وافتحه.
 
-> الملف موقَّع بمفتاح تطوير، وهو مناسب للاستخدام الشخصي. لا يُنشر هذا الملف على متجر Google Play.
+
 
 ### الطريقة الثانية: البناء من المصدر
 
@@ -80,8 +80,8 @@ flutter devices
 #### التثبيت
 
 ```bash
-git clone https://github.com/<USERNAME>/mizan.git
-cd mizan
+git clone https://github.com/Wuas01/MizanApp.git
+cd MizanApp
 flutter pub get
 dart run build_runner build --delete-conflicting-outputs
 flutter run --release
