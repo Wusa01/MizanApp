@@ -1,7 +1,7 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
-
+import 'widgets/reminder_tiles.dart';
 import '../../../core/providers/database_provider.dart';
 import '../../../core/services/app_lock_service.dart';
 import '../../../core/services/backup_crypto.dart';
@@ -191,6 +191,8 @@ class SettingsPage extends ConsumerWidget {
             title: Text('اللغة'),
             subtitle: Text('العربية'),
           ),
+          const Divider(),
+          const ReminderSettingsTiles(),
           const Divider(),
           ListTile(
             leading: const Icon(Icons.palette_outlined),
